@@ -10,10 +10,10 @@
 :root {
     --bg: #f4f7fc;
     --card: #ffffff;
-    --text: #1b1b1b;
-    --muted: #505d75;
-    --accent: #375dfb;
-    --accent2: #9ab3ff;
+    --text: #0d0d0d;         /* PURE DARK TEXT */
+    --muted: #1a1a1a;        /* DARKER MUTED - STILL DARK */
+    --accent: #1b3de7;       /* Darker blue */
+    --accent2: #27408b;      /* Deep navy blue */
     --radius: 16px;
     --pad: 22px;
     --shadow: 0 10px 35px rgba(0,0,0,0.09);
@@ -22,10 +22,10 @@
 body.dark {
     --bg: #0e1117;
     --card: #151921;
-    --text: #e4e9f5;
-    --muted: #8b97b4;
+    --text: #f7f7f7;         /* LIGHT TEXT FOR DARK MODE */
+    --muted: #e1e1e1;        /* STILL LIGHT */
     --accent: #5f89ff;
-    --accent2: #1e2a4d;
+    --accent2: #96b0ff;
     --shadow: 0 10px 40px rgba(0,0,0,0.4);
 }
 
@@ -51,7 +51,7 @@ header {
     background: linear-gradient(135deg, #375dfb, #6e8cff, #9bb4ff);
     padding: 40px;
     border-radius: var(--radius);
-    color: #fff;
+    color: #ffffff;
     box-shadow: var(--shadow);
     animation: fadeIn 0.8s ease-in-out;
 }
@@ -65,7 +65,8 @@ header h1 {
 header p {
     margin-top: 10px;
     font-size: 16px;
-    opacity: 0.9;
+    opacity: 0.95;
+    color: #ffffff;
 }
 
 /* ---------------- DARK MODE BUTTON ---------------- */
@@ -131,7 +132,7 @@ h3 {
 }
 
 p, li {
-    color: var(--text);
+    color: var(--text);   /* TEXT ALWAYS DARK */
 }
 
 ul {
@@ -191,12 +192,12 @@ ul {
 
 <section id="world">
 <h2>1. The World of Interstellar</h2>
-<p>Earth is dying—crops failing, dust storms taking over, and hope shrinking. Humanity isn’t battling aliens; it’s battling nature and time itself. Nolan shows a world choking slowly, pushing the urgency of survival.</p>
+<p>Earth is dying—crops failing, dust storms taking over, and hope shrinking. Humanity isn’t battling aliens; it’s battling nature and time itself.</p>
 </section>
 
 <section id="mission">
 <h2>2. The Mission</h2>
-<p>Cooper and NASA scientists travel through a wormhole to find a new habitable world. The wormhole visuals are guided by Kip Thorne’s real physics calculations, grounding the film in scientific plausibility.</p>
+<p>Cooper and NASA scientists travel through a wormhole to find a new habitable world. The wormhole visuals are guided by Kip Thorne’s real physics calculations.</p>
 </section>
 
 <section id="planets">
@@ -206,17 +207,17 @@ ul {
 
 <section id="miller">
 <h3>Miller’s Planet — The Cost of Time</h3>
-<p>Near Gargantua, time stretches: 1 hour = 7 years on Earth. The giant waves look terrifying, but the emotional hit of decades lost is far heavier.</p>
+<p>Near Gargantua, time stretches: 1 hour = 7 years on Earth. The emotional hit of decades lost is heavier than the giant waves.</p>
 </section>
 
 <section id="mann">
 <h3>Mann’s Planet — Desperation</h3>
-<p>Dr. Mann becomes the human antagonist, showing how fear can corrupt judgement. His lies nearly doom the mission.</p>
+<p>Dr. Mann represents fear taken to an extreme, almost destroying the mission.</p>
 </section>
 
 <section id="edmund">
 <h3>Edmund’s Planet — Hope</h3>
-<p>The final planet offers stability, possibility, and survival—if humanity can reach it.</p>
+<p>The final planet offers a real chance for humanity’s survival.</p>
 </section>
 
 <section id="science">
@@ -229,7 +230,7 @@ ul {
 <ul>
 <li>Time dilation near a massive black hole</li>
 <li>Relativity and gravitational effects</li>
-<li>Wormhole representation based on math</li>
+<li>Wormhole representation based on real math</li>
 <li>Black hole imagery used in academic research</li>
 <li>Space-time interactions affecting the plot</li>
 </ul>
@@ -246,12 +247,12 @@ ul {
 
 <section id="emotional">
 <h2>5. Emotional Core</h2>
-<p>At its heart, Interstellar is about a father and daughter. Murph and Cooper’s relationship drives the emotional narrative—separation, aging, betrayal, reconnection.</p>
+<p>The father–daughter relationship between Cooper and Murph drives the emotional narrative of the film.</p>
 </section>
 
 <section id="tesseract">
 <h2>6. The Tesseract</h2>
-<p>Cooper entering the tesseract marks the film’s transition from hard science to metaphysics. The scene is visually stunning but scientifically debatable.</p>
+<p>A visually stunning but scientifically debatable moment where the story shifts from physics to metaphysics.</p>
 </section>
 
 <section id="themes">
@@ -266,22 +267,22 @@ ul {
 
 <section id="visuals">
 <h2>8. Visual Brilliance</h2>
-<p>Nolan used practical effects, real miniatures, and innovative lighting. Gargantua remains one of the most accurate black hole renderings in cinema.</p>
+<p>Nolan’s practical effects and accurate black hole rendering set a new standard in sci-fi visuals.</p>
 </section>
 
 <section id="music">
-<h2>9. Music: Hans Zimmer</h2>
-<p>Zimmer’s organ-based score elevates every moment, giving the film a spiritual, almost haunting tone.</p>
+<h2>9. Music</h2>
+<p>Hans Zimmer’s organ-driven score delivers emotional and atmospheric impact.</p>
 </section>
 
 <section id="matters">
 <h2>10. Why Interstellar Still Matters</h2>
-<p>The film blends science, emotion, and philosophical ambition. Few sci-fi films try this hard—and fewer succeed.</p>
+<p>The film blends scientific ambition with emotional and philosophical storytelling.</p>
 </section>
 
 <section id="final">
 <h2>Final Verdict</h2>
-<p>Interstellar remains one of the boldest sci-fi films ever made. Visually stunning, emotionally rich, scientifically ambitious—it’s a film that refuses to underestimate its audience.</p>
+<p>Interstellar remains one of the boldest sci-fi films ever made—ambitious, emotional, visually stunning, and scientifically daring.</p>
 </section>
 
 </article>
@@ -289,7 +290,6 @@ ul {
 </div>
 
 <script>
-// DARK MODE TOGGLE
 document.querySelector(".toggle-btn").addEventListener("click", () => {
     document.body.classList.toggle("dark");
 });
